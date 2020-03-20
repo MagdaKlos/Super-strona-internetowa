@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color:white;
+    text-align: center;
+    font-family: 'Allan';
+    font-size: 150px;
+    margin: 0px;}
+
+
+
+#menu {
+    width: 100%;
+    padding: 10px 0;
+    background-color: grey ;
+    text-align: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed black;
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed black;
+}
+
+ol > li:hover
+{
+	background-color: lightgray;
+}
+
+ol > li:hover > a
+{
+	color: dimgrey;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color: lightgray;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed lightgray;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: lightgray;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: grey;
+}
+h2{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    border: 5px solid grey;
+    position: relative;
+    vertical-align: bottom;
+    border-style: groove;
+}
+
+.cos{
+    text-align: center;
+}
+
+h3{
+    color: white;
+    margin: 20px;
+}
+  #stopka{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+ 
